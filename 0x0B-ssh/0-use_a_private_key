@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script sonnects to my personal ubuntu server
+ssh -i ~/.ssh/school ubuntu@54.236.52.48
