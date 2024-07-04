@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 # This script connects to server without typing a password
-echo -e "Host *\n    IdentityFile ~/.ssh/school\n    PasswordAuthentication no" >> ~/.ssh/config
+Host *
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
