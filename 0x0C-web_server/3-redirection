@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This script configures Nginx server so that /redirect_me is redirecting to another page
-
 sudo apt-get -y install nginx
 sudo bash -c 'echo "Hello World!" > /var/www/html/index.nginx-debian.html'
 redirect="\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
