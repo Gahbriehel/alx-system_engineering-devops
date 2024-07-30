@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This module fetches information from a URL """
+""" This module fetches information from a URL and exports it in a csv file """
 from requests import get
 from sys import argv
 
